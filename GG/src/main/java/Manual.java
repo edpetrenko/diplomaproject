@@ -236,7 +236,7 @@ public class Manual extends JPanel {
                             " Індивід. коеф.: " + coeff + "\nВуглеводи: " + (Math.round((carb) * 10.0) / 10.0)+" ХО: "+ (Math.round((carb/12) * 10.0) / 10.0)+"";
                     JOptionPane.showMessageDialog(null, message, "Рекомендована доза інсуліну", JOptionPane.INFORMATION_MESSAGE);
                 } catch (NumberFormatException e) {
-                    JOptionPane.showMessageDialog(null, "Будь ласка, введіть числові значення в поля введення.", "Error", 0);
+                    JOptionPane.showMessageDialog(null, "Будь ласка, введіть числові значення в поля.", "Error", 0);
                 }
             }
         });
