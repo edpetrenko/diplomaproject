@@ -182,7 +182,7 @@ public class Manual extends JPanel {
                     });
 
                 }catch (NumberFormatException e) {
-                    JOptionPane.showMessageDialog(null, "Будь ласка, введіть числові значення в поля введення.", "Error", 0);
+                    JOptionPane.showMessageDialog(null, "Будь ласка, введіть числові значення в поля.", "Error", 0);
 
                 }
             }
